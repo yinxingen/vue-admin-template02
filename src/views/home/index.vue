@@ -26,7 +26,7 @@
 import axios from 'axios'
 import {loginExample} from '@/api/login'
 import { mapState, mapActions } from 'vuex'
-
+import Auth from '@/utils/auth'
 export default {
   name: 'home',
   data () {
@@ -36,7 +36,9 @@ export default {
 
   },
   created () {
-    this.getData()
+    console.log(11)
+    console.log(Auth.hasToken())
+    // this.getData()
   },
   methods: {
     getData() {

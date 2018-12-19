@@ -2,7 +2,6 @@ import axios from 'axios'
 import qs from 'qs'
 // import { Message } from 'element-ui'
 // import store from '@/store'
-// import { getToken } from '@/utils/auth'
 
 var instance = axios.create();
 instance.defaults.timeout = 10000;

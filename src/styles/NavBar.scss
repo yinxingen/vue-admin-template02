@@ -1,6 +1,9 @@
 .el-menu--horizontal .el-menu {
     background-color: #fff!important;
 }
+.side-nav > .el-menu > .el-submenu > .el-submenu__title > .el-submenu__icon-arrow{
+    color: #fff;
+}
 .el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title{
     background-color: #fff!important;
     color: #41a29e!important;

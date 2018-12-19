@@ -120,6 +120,10 @@ export default {
         & .cur{
             background-color:#52bab5;
             color: #fff;
+            span:hover{
+                background-color: rgb(238, 236, 236);
+                color: #52bab5;
+            }
         }
-  }
+    }
 </style>
